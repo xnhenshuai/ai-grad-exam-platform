@@ -1,6 +1,8 @@
 from datetime import datetime
 
 # Placeholder authentication service
+# NOTE: Phase 1 skeleton only, mock behavior.
+# TODO: replace with JWT / token-based authentication and password hashing for production.
 
 class AuthService:
     def register_user(self, username: str, password: str):
